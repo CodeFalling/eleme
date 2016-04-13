@@ -1,0 +1,318 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+  </head>
+
+  <body>
+    <div class="page">
+      <!-- sidebar -->
+      <sidebar class="sidebar">
+        <div class="toolbar-tabs-middle">
+          <a class="toolbar-btn icon-order toolbar-close"></a>
+          <div class="toolbar-separator"></div>
+          <a class="toolbar-btn toolbar-cartbtn icon-cart">购物车</a>
+          <div class="toolbar-separator"></div>
+
+          <a class="toolbar-btn icon-notice"></a>
+          <a class="toolbar-btn icon-history"></a>
+        </div>
+      </sidebar>
+
+      <div class="main">
+        <header class="topbar">
+          <a class="icon-logo topbar-logo"></a>
+          <a class="topbar-item focus">首页</a>
+          <a class="topbar-item">品牌商家
+            <i class="elemeicon elemeicon-hot"></i>
+          </a>
+          <a class="topbar-item">我的订单</a>
+          <a class="topbar-item">加盟合作</a>
+          <nav class="topbar-nav">
+            <a class="topbar-nav-link">
+              <i class="topbar-nav-icon icon-gift"></i>
+              积分商城
+            </a>
+            <a class="topbar-nav-link">
+              <i class="topbar-nav-icon icon-service"></i>
+              服务中心
+            </a>
+            <a class="topbar-nav-link">
+              <i class="topbar-nav-icon icon-mobile"></i>
+              手机应用
+            </a>
+          </nav>
+          <div class="topbar-profilebox">
+            <span class="topbar-profilebox-avatar icon-profile"></span>
+            <span>登录/注册</span>
+          </div>
+        </header>
+
+        <div class="container">
+          <div class="upper">
+            <div class="location">
+              <span>当前位置:</span>
+              <a>闵行区上海交通大学(闵行校区)内</a>
+              <a href="#">[切换地址]</a>
+            </div>
+
+            <div class="search">
+              <a class="place-search-btn icon-search" title="搜索商家或美食"></a>
+              <input id="globalsearch" class="search-input" placeholder="搜索商家,美食...">
+            </div>
+          </div>
+          <!-- ad -->
+          <div id="slide" class="ad"></div>
+          <!-- tab -->
+          <div class="place-tab">
+            <a class="place-tab-item focus">外卖商家</a>
+            <a class="place-tab-item">附近的团购</a>
+
+            <div class="place-fetchtakeout">
+              <img src="https://static11.elemecdn.com/eleme/desktop/media/img/takeout.f58d1e.png" alt="谁去拿外卖">
+            </div>
+          </div>
+
+          <!-- excavator -->
+          <div class="excavator">
+            <div class="excavator-filter">
+              <span>商家分类:</span>
+              <a class="excavator-filter-item focus">全部商家</a>
+              <a class="excavator-filter-item highlight">品牌商家</a>
+              <a class="excavator-filter-item">快餐类</a>
+              <a class="excavator-filter-item">正餐类</a>
+              <a class="excavator-filter-item">小吃零食</a>
+              <a class="excavator-filter-item">甜品饮品</a>
+              <a class="excavator-filter-item">果蔬生鲜</a>
+              <a class="excavator-filter-item">鲜花蛋糕</a>
+              <a class="excavator-filter-item">超市便利店</a>
+            </div>
+            <div class="excavator-bgbar">
+              <div class="excavator-sort">
+                <a class="excavator-sort-item focus">默认排序</a>
+                <a class="excavator-sort-item">销量高</a>
+                <a class="excavator-sort-item">评价好</a>
+                <a class="excavator-sort-item">其他排序</a>
+                <a class="excavator-sort-item">起送价格：不限</a>
+              </div>
+
+              <div class="excavator-option">
+                <label class="excavator-option-item">
+                  <input type="checkbox">新开商家
+                </label>
+                <label class="excavator-option-item">
+                  <input type="checkbox">免配送费
+                </label>
+                <label class="excavator-option-item">
+                  <input type="checkbox">蜂鸟专送
+                </label>
+                <label class="excavator-option-item">
+                  <input type="checkbox">可开发票
+                </label>
+                <label class="excavator-option-item">
+                  <input type="checkbox">在线支付
+                </label>
+              </div>
+
+            </div>
+
+          </div>
+          <!-- tip -->
+          <div class="place-tips">
+            <span>想吃好点的，看看附近 <span class="count">25 家</span> 品牌商家吧，<a href="/premium">立即查看</a></span>
+          </div>
+
+          <!-- rstbox -->
+          <!-- repeat -->
+          <div class="place-rstbox">
+            <a href="#" class="rstblock">
+              <div class="rstblock-logo">
+                <img src="https://fuss10.elemecdn.com/e/c8/bdf11717edffe0fde4424a2727737jpeg.jpeg?imageMogr2/thumbnail/70x70/format/webp/quality/85" alt="八合店" class="rstblock-logo-icon">
+                <span>29 分钟</span>
+              </div>
+              <div class="rstblock-content">
+                <div class="rstblock-title">八合店</div>
+                <div class="starrating icon-star">
+                  <span class="icon-star" style="width:90%;"></span>
+                </div>
+                <span class="rstblock-monthsales">月售114单</span>
+                <div class="rstblock-cost">10元起送 / 配送费3元</div>
+                <div class="rstblock-activity">
+                  <i style="background:#f07373;">折</i>
+                  <i style="background:#f07373;">减</i>
+                  <i style="background:#fff;color:#FF4E00;border:1px solid;padding:0;">付</i>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="rstblock">
+              <div class="rstblock-logo">
+                <img src="https://fuss10.elemecdn.com/e/c8/bdf11717edffe0fde4424a2727737jpeg.jpeg?imageMogr2/thumbnail/70x70/format/webp/quality/85" alt="八合店" class="rstblock-logo-icon">
+                <span>29 分钟</span>
+              </div>
+              <div class="rstblock-content">
+                <div class="rstblock-title">八合店</div>
+                <div class="starrating icon-star">
+                  <span class="icon-star" style="width:90%;"></span>
+                </div>
+                <span class="rstblock-monthsales">月售114单</span>
+                <div class="rstblock-cost">10元起送 / 配送费3元</div>
+                <div class="rstblock-activity">
+                  <i style="background:#f07373;">折</i>
+                  <i style="background:#f07373;">减</i>
+                  <i style="background:#fff;color:#FF4E00;border:1px solid;padding:0;">付</i>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="rstblock">
+              <div class="rstblock-logo">
+                <img src="https://fuss10.elemecdn.com/e/c8/bdf11717edffe0fde4424a2727737jpeg.jpeg?imageMogr2/thumbnail/70x70/format/webp/quality/85" alt="八合店" class="rstblock-logo-icon">
+                <span>29 分钟</span>
+              </div>
+              <div class="rstblock-content">
+                <div class="rstblock-title">八合店</div>
+                <div class="starrating icon-star">
+                  <span class="icon-star" style="width:90%;"></span>
+                </div>
+                <span class="rstblock-monthsales">月售114单</span>
+                <div class="rstblock-cost">10元起送 / 配送费3元</div>
+                <div class="rstblock-activity">
+                  <i style="background:#f07373;">折</i>
+                  <i style="background:#f07373;">减</i>
+                  <i style="background:#fff;color:#FF4E00;border:1px solid;padding:0;">付</i>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="rstblock">
+              <div class="rstblock-logo">
+                <img src="https://fuss10.elemecdn.com/e/c8/bdf11717edffe0fde4424a2727737jpeg.jpeg?imageMogr2/thumbnail/70x70/format/webp/quality/85" alt="八合店" class="rstblock-logo-icon">
+                <span>29 分钟</span>
+              </div>
+              <div class="rstblock-content">
+                <div class="rstblock-title">八合店</div>
+                <div class="starrating icon-star">
+                  <span class="icon-star" style="width:90%;"></span>
+                </div>
+                <span class="rstblock-monthsales">月售114单</span>
+                <div class="rstblock-cost">10元起送 / 配送费3元</div>
+                <div class="rstblock-activity">
+                  <i style="background:#f07373;">折</i>
+                  <i style="background:#f07373;">减</i>
+                  <i style="background:#fff;color:#FF4E00;border:1px solid;padding:0;">付</i>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="rstblock">
+              <div class="rstblock-logo">
+                <img src="https://fuss10.elemecdn.com/e/c8/bdf11717edffe0fde4424a2727737jpeg.jpeg?imageMogr2/thumbnail/70x70/format/webp/quality/85" alt="八合店" class="rstblock-logo-icon">
+                <span>29 分钟</span>
+              </div>
+              <div class="rstblock-content">
+                <div class="rstblock-title">八合店</div>
+                <div class="starrating icon-star">
+                  <span class="icon-star" style="width:90%;"></span>
+                </div>
+                <span class="rstblock-monthsales">月售114单</span>
+                <div class="rstblock-cost">10元起送 / 配送费3元</div>
+                <div class="rstblock-activity">
+                  <i style="background:#f07373;">折</i>
+                  <i style="background:#f07373;">减</i>
+                  <i style="background:#fff;color:#FF4E00;border:1px solid;padding:0;">付</i>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="rstblock">
+              <div class="rstblock-logo">
+                <img src="https://fuss10.elemecdn.com/e/c8/bdf11717edffe0fde4424a2727737jpeg.jpeg?imageMogr2/thumbnail/70x70/format/webp/quality/85" alt="八合店" class="rstblock-logo-icon">
+                <span>29 分钟</span>
+              </div>
+              <div class="rstblock-content">
+                <div class="rstblock-title">八合店</div>
+                <div class="starrating icon-star">
+                  <span class="icon-star" style="width:90%;"></span>
+                </div>
+                <span class="rstblock-monthsales">月售114单</span>
+                <div class="rstblock-cost">10元起送 / 配送费3元</div>
+                <div class="rstblock-activity">
+                  <i style="background:#f07373;">折</i>
+                  <i style="background:#f07373;">减</i>
+                  <i style="background:#fff;color:#FF4E00;border:1px solid;padding:0;">付</i>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="rstblock">
+              <div class="rstblock-logo">
+                <img src="https://fuss10.elemecdn.com/e/c8/bdf11717edffe0fde4424a2727737jpeg.jpeg?imageMogr2/thumbnail/70x70/format/webp/quality/85" alt="八合店" class="rstblock-logo-icon">
+                <span>29 分钟</span>
+              </div>
+              <div class="rstblock-content">
+                <div class="rstblock-title">八合店</div>
+                <div class="starrating icon-star">
+                  <span class="icon-star" style="width:90%;"></span>
+                </div>
+                <span class="rstblock-monthsales">月售114单</span>
+                <div class="rstblock-cost">10元起送 / 配送费3元</div>
+                <div class="rstblock-activity">
+                  <i style="background:#f07373;">折</i>
+                  <i style="background:#f07373;">减</i>
+                  <i style="background:#fff;color:#FF4E00;border:1px solid;padding:0;">付</i>
+                </div>
+              </div>
+            </a>
+
+
+
+          </div>
+          <!-- repeat end -->
+        </div>
+
+        <footer class="footer">
+          <ul class="footer-link">
+            <li><h3 class="footer-link-title">用户帮助</h3></li>
+            <li><a class="footer-link-item">服务中心</a></li>
+            <li><a class="footer-link-item">常见问题</a></li>
+            <li><a class="footer-link-item">在线客服</a></li>
+          </ul>
+          <ul class="footer-link">
+            <li><h3 class="footer-link-title">商务合作</h3></li>
+            <li><a class="footer-link-item">我要开店</a></li>
+            <li><a class="footer-link-item">加盟指南</a></li>
+            <li><a class="footer-link-item">市场合作</a></li>
+            <li><a class="footer-link-item">开放平台</a></li>
+          </ul>
+          <ul class="footer-link">
+            <li><h3 class="footer-link-title">关于我们</h3></li>
+            <li><a class="footer-link-item">饿了么介绍</a></li>
+            <li><a class="footer-link-item">加入我们</a></li>
+            <li><a class="footer-link-item">联系我们</a></li>
+            <li><a class="footer-link-item">服务协议</a></li>
+          </ul>
+          <ul class="footer-content">
+            <li><a class="footer-content-item">24小时客服热线 : 10105757</a></li>
+            <li><a class="footer-content-item">意见反馈 : feedback@ele.me</a></li>
+            <li>
+              <a class="footer-content-item">关注我们 :
+                <a class="icon-wechat footer-content-icon"></a>
+                <a class="icon-weibo footer-content-icon"></a>
+                <a class="icon-renren footer-content-icon"></a>
+              </a>
+            </li>
+          </ul>
+          <div class="footer-mobile">
+            <img class="footer-mobile-icon" alt="qrcode" src="https://static11.elemecdn.com/eleme/desktop/media/img/appqc.852963.png"/>
+            <div class="footer-mobile-content"><h3>下载手机版</h3><p>扫一扫,手机订餐方便</p></div>
+          </div>
+        </footer>
+
+      </div>
+
+    </div>
+    <script src="./index.js"></script>
+
+  </body>
+
+</html>
